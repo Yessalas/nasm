@@ -7,11 +7,11 @@ section .text
     globaL _start
 
 _start:
-    mov rax, [num1]     
-    add rax , [num2]
-    mov [result], rax
+    mov rax, [num1]     ;move o valor de num1 para rax     
+    add rax , [num2]    ; adiciona o valor num2 a rax
+    mov [result], rax   ;armazena o resultado em result
 
-    mov rax, 60
-    xor rdi, rdi
+    mov rax, 60         ;sys_exit system call
+    xor rdi, rdi        ;exit code 0
     syscall
 
