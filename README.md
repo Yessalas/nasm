@@ -1,5 +1,10 @@
 # Estudos de comandos NASM
-## priimeiros comandos
+<p align = "center">
+
+<img src= "https://seeklogo.com/images/N/netwide-assembler-nasm-logo-EC5B1109AC-seeklogo.com.png"  width=200 height=200>
+
+</p >
+## Primeiros comandos
 
 * Pragrama hello world
 
@@ -19,5 +24,5 @@ global_start
 
         section .data
         mensagem:db' Hello Word',10 ; O valor 10 representa a quebra de linha
-        
+
 ```
